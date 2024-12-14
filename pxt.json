@@ -1,0 +1,29 @@
+{
+    "name": "flappy duck",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "sevenseg": "*",
+        "animation": "*",
+        "multiplayer": "*",
+        "darts": "*",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.12.57",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
